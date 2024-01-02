@@ -1,0 +1,55 @@
+* {
+border: 1px solid blue;
+}
+.main {
+        width:100%;
+}
+.relative-title {
+width: 100%;
+position: relative;
+top:20px;
+font-size: 500%;
+left:0px;
+z-index: -30;
+text-align: center;
+}
+.relative-h1 {
+letter-spacing: 60px;
+width: 100%;
+font-family: "Monotype Corsiva";
+font-weight: bold;
+color: tan;
+opacity: 0.4;
+
+}
+.relative-sub {
+position:absolute;
+top:180px;
+left: 700px;
+color:firebrick;
+width: 50%;
+font-family: "Monotype Corsiva";
+font-weight: bold;
+z-index: -20;
+}
+.relative-h2 {
+width: 100%;
+font-family: "Monotype Corsiva";
+font-weight: bold;
+}
+.form-button {
+width:10%;
+position: absolute;
+        top: 310px;
+        left: 850px;
+z-index: -10;
+}
+.form-button-submit {
+width: 100%;
+background-color: azure;
+        font-weight: 900;
+        color: darkmagenta;
+        font-size: 24px;
+        padding: 2% 0% 2% 0%;
+        cursor: pointer;
+}
